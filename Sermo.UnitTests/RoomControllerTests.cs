@@ -38,7 +38,7 @@ namespace Sermo.UnitTests
         }
 
         [Test]
-        public void GetCreateRendersView()
+        public void GetCreateRendersView() // Create Rendor Views
         {
             var controller = CreateController();
 

@@ -66,7 +66,7 @@ namespace Sermo.UI.Controllers
         }
 
         [HttpPost]
-        public ActionResult AddMessage(MessageViewModel messageViewModel)
+        public ActionResult AddMessage(MessageViewModel messageViewModel) // Adding a message
         {
             ActionResult result;
 
