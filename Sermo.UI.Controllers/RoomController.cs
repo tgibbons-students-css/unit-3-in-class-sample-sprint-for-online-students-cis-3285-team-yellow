@@ -11,7 +11,7 @@ using System.Net;
 
 namespace Sermo.UI.Controllers
 {
-    public class RoomController : Controller
+    public class RoomController : Controller //create rooms for categorizing conversations
     {
         public RoomController(IRoomViewModelReader reader, IRoomViewModelWriter writer)
         {
