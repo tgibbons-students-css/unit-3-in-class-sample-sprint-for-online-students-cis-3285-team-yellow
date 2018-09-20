@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Sermo.UI.Contracts
 {
-    public class ContentFilteredAttribute : ValidationAttribute
+    public class ContentFilteredAttribute : ValidationAttribute // message content
     {
         private readonly string[] blacklist = new string[] 
         {
