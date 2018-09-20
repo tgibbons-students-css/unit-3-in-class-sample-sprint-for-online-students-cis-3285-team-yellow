@@ -38,6 +38,7 @@ namespace Sermo.UI.Controllers
             // Changes Sprint 1 --  Made another change -- Tom Gibbons
         }
 
+        //I want to view a list of rooms that represent conversations -- Al Zenk
         [HttpPost]
         public ActionResult Create(RoomViewModel model)
         {

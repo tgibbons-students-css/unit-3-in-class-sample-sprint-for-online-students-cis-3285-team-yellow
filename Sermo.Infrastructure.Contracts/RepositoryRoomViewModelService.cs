@@ -13,6 +13,7 @@ namespace Sermo.UI.Controllers
 {
     public class RepositoryRoomViewModelService : IRoomViewModelReader, IRoomViewModelWriter
     {
+        //comment for user story “I want to view the messages that have been sent to a room.”
         public RepositoryRoomViewModelService(IRoomRepository roomRepository, IMessageRepository messageRepository, IViewModelMapper mapper)
         {
             Contract.Requires<ArgumentNullException>(roomRepository != null);
