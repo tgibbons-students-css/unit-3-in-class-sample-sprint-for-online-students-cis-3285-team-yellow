@@ -11,7 +11,7 @@ using System.Net;
 
 namespace Sermo.UI.Controllers
 {
-    public class RoomController : Controller
+    public class RoomController : Controller //create rooms for categorizing conversations
     {
         public RoomController(IRoomViewModelReader reader, IRoomViewModelWriter writer)
         {
@@ -38,6 +38,7 @@ namespace Sermo.UI.Controllers
             // Changes Sprint 1 --  Made another change -- Tom Gibbons
         }
 
+        //I want to view a list of rooms that represent conversations -- Al Zenk
         [HttpPost]
         public ActionResult Create(RoomViewModel model)
         {
