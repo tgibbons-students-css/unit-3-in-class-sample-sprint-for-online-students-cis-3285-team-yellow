@@ -11,7 +11,7 @@ using Sermo.Data.Contracts;
 
 namespace Sermo.Data.AdoNet
 {
-    public class AdoNetRoomRepository : IRoomRepository
+    public class AdoNetRoomRepository : IRoomRepository //Creating a room
     {
         public AdoNetRoomRepository(IApplicationSettings applicationSettings, DbProviderFactory databaseFactory)
         {
