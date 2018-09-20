@@ -31,7 +31,7 @@ namespace Sermo.Data.Mongo
             roomsCollection.Save(roomViewModel);
         }
 
-        //Sprint #2, User Story #3
+        //Sprint #2, User Story #3 -- Dustin Kowal
         public IEnumerable<MessageViewModel> GetRoomMessages(int roomID)
         {
             var messageQuery = Query<MessageViewModel>.EQ(viewModel => viewModel.RoomID, roomID);
