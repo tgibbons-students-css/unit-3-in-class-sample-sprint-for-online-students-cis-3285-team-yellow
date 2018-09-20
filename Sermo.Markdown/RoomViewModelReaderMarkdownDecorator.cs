@@ -18,6 +18,7 @@ namespace Sermo.Markdown
             this.markdown = markdown;
         }
 
+        //I want to send markdown that will be correctly formatted -- Al Zenk
         public IEnumerable<RoomViewModel> GetAllRooms()
         {
             return @delegate.GetAllRooms();
